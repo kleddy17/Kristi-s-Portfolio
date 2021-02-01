@@ -1,0 +1,83 @@
+
+.whole-nav {
+  background-color: black;
+  /* align-items: flex-start; */
+}
+
+a {
+  font-size: 1.4rem !important;
+  font-weight: 800;
+  font-family: 'Cormorant', serif;
+  text-align: center;
+
+}
+
+/* .color{
+  font-size: 5em !important; 
+  background: black;
+  color:magenta;
+  font-family: 'Cormorant', serif;
+  border: 10px solid magenta
+} */
+
+/* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background: linear-gradient(to top, #ffafbd, #ffb3b4, #ffb7ac, #ffbda5, #ffc3a0); */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+/* .right-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-top:15px;
+  padding-bottom:15px;
+  line-height:100px; 
+} */
+
+
+.left-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 2em;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  line-height:-10vh;
+
+}
+
+/* .RESUME{
+  font-size: 1em;
+  font-family: 'Cormorant', serif;
+} */
+
+ /* a.skills{ 
+  font-size: 0.9em !important;
+  font-family: 'Cormorant', serif;
+  font-weight: bolder;
+  border: 2px solid blue
+
+}
+
+a.home{ 
+  font-size: 0.5em !important;
+  font-family: 'Cormorant', serif;
+  font-weight: bolder;
+  border: 2px solid blue
+
+}  */

@@ -1,0 +1,120 @@
+  html {
+    height:100%;
+  }
+  
+ body {
+    margin:0;
+    /* font-family: "bitter", sans-serif; */
+}
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    /* background-image: linear-gradient(-60deg, rgb(165, 199, 183) 50%, rgb(93, 66, 87) 50%); */
+    background-image: linear-gradient(-60deg, rgb(158, 118, 143) 50%, rgb(159, 164, 196) 50%);
+    /* background-image: linear-gradient(-60deg, #ffd89b, #f3a495, #c57f9d, #7a6899, #19547b); */
+    /* background-image: linear-gradient(-60deg,  #a5c7b7, #7ba8ac, #66879c, #626480, #5d4257);  */
+    /* background-image: linear-gradient(to right top, #a5c7b7, #7ba8ac, #66879c, #626480, #5d4257); */
+   
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  } 
+
+  .page-footer{
+    background-color: black;
+  
+  } 
+
+  .skills-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 5em !important;
+    margin-top: 0.5em;
+    justify-content: space-around;
+   
+  }
+
+  .skills-text{
+    display: flex;
+    margin-left: 28vw;
+    font-family: 'Cormorant', serif;
+    font-size: 5em;
+    font-weight: 100;
+    width: 100%;
+  }
+
+
+  .grey-text.text-lighten-3 {
+    font-size: 2em;
+    border: 2px solid magenta; 
+
+  }
+
+  @media screen and (min-width: 100px) and (max-width: 480px) {
+    .skills-container{
+      display: flex;
+      flex-direction: column ;
+      /* font-size: 4rem; */
+      justify-content: space-between;
+      align-items: baseline;
+      /* border: 6px solid pink */
+     
+      
+    }
+  
+    .skills-text{
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      margin-left: 35vw;
+      font-family: 'Cormorant', serif;
+      font-size:4em;
+      font-weight: 100;
+      width:20%;
+     
+    }
+  
+
+
+
+  }
+
+   
