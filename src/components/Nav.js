@@ -14,8 +14,8 @@ const nav = () =>{
       
         <ul className ="right-container">
           <li><a className="RESUME" href="https://docs.google.com/document/d/1f0OYxM6fODJtaYysmK_7UnyT_XMPvZhKlfQhas4T20E/edit">Resume</a></li>
-          <li><a className ="home"><Link to = "/">Home</Link>{' '}</a></li>
-          <li><a className ="skills"><Link to = "/Skills">Skills</Link>{' '}</a></li>
+          <li><Link to = "/">Home</Link>{' '}</li>
+          <li><Link to = "/Skills">Skills</Link>{' '}</li>
         </ul>
         <ul className = "left-container">
           <li><a className="hvr-grow" href='https://docs.google.com/forms/d/e/1FAIpQLSeQvHU0oP_S9J1d2SQ6Ij_QKrev8ccILOdLUoYfY1KI5FInOQ/viewform?usp=sf_link'><i class="fas fa-envelope-square"></i></a></li>
