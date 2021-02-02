@@ -59,8 +59,15 @@
   } 
 
   .page-footer{
+    display:flex;
     background-color: black;
-  
+    bottom: 0;
+    position: fixed;
+    width:100vw;
+    /* height: vh; */
+    margin-top:100%;
+    
+
   } 
 
   .skills-container{
@@ -112,8 +119,6 @@
      
     }
   
-
-
 
   }
 

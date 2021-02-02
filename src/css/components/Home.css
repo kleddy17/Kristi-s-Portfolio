@@ -7,6 +7,16 @@
     width:13vw;
 }
 
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 10px solid pink; */
+
+}
 /* #software-engineer{
     text-align: center;
     flex-direction: column;
@@ -109,7 +119,7 @@
 .project-container{
     display:flex;
     flex-wrap:wrap;
-    /* flex-flow: column wrap; */
+    margin-bottom: 30em;
     justify-content: space-evenly;
     margin-left:10%;
     margin-right:10%;
@@ -266,6 +276,7 @@
         justify-content: space-evenly;
         margin-left: 10%;
         margin-right: 10%;
+        /* border: 10px solid pink; */
 
     }
 
