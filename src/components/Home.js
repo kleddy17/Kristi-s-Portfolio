@@ -32,6 +32,7 @@ const Home = () => {
         <div className="header">
           <h2 className="name">Kristi Eddy</h2>
           <img className="selfie"
+            alt="portfolio_pic"
             src='https://i.postimg.cc/JzT066pD/C90-E0-BDE-651-F-4-B7-A-B5-F3-7-D17-C59-DB10-F-4-5005-c.jpg'
           />
           <p id="software-engineer"> Software Engineer</p>
