@@ -4,11 +4,13 @@ import "../../css/components/Layout.css"
 const Layout = (props) =>{
     return (
   <div> 
+    
     <div class="bg"></div>
     <div class="bg bg2"></div>
     <div class="bg bg3"></div>
     <div>{props.children}</div> 
-    <footer className="page-footer">
+   
+    {/* <footer className="page-footer">
       
           <div className="container">
             <div className="row">
@@ -34,7 +36,7 @@ const Layout = (props) =>{
     <div className="container"></div>
   </div>
 
-</footer>
+</footer> */}
 </div>
   )
 }

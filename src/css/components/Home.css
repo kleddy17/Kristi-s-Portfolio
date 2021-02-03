@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Libre+Baskerville:wght@700&display=swap');
 
+
+
+
 .selfie{
     border-radius: 25%;
     height:20vw;
@@ -58,9 +61,11 @@
 }
 
 .big-div{
+    
     display: flex;
     justify-content: flex-start;
-    border: 10px solid white
+    border: 10px solid white;
+    /* position: sticky; */
 }
 
 

@@ -10,8 +10,11 @@ import Home from "./components/Home";
 import Content from "./components/Content";
 import Layout from "./components/common/Layout"
 import Nav from "./components/Nav"
+import Footer from "./components/Footer"
+
 // CSS imports
 import "./css/App.css";
+
 
 const App = () => {
   return(
@@ -21,6 +24,7 @@ const App = () => {
       <main>
         <Content/>
       </main>
+      <Footer/>
       {/* <Route exact path ="/" component={Home}/> */}
       {/* <Route path="/Skills" component={Skills} /> */}
       {/* <Route path="/Resume" component={nav} />  */}

@@ -66,8 +66,7 @@
     width:100vw;
     /* height: vh; */
     margin-top:100%;
-    
-
+    clear: both;
   } 
 
   .skills-container{
