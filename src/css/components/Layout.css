@@ -97,11 +97,11 @@
   @media screen and (min-width: 100px) and (max-width: 480px) {
     .skills-container{
       display: flex;
-      flex-direction: column ;
-      /* font-size: 4rem; */
+      flex-direction: row;
+      font-size: 2rem !important;
       justify-content: space-between;
       align-items: baseline;
-      /* border: 6px solid pink */
+ 
      
       
     }
@@ -112,7 +112,7 @@
       align-items: baseline;
       margin-left: 35vw;
       font-family: 'Cormorant', serif;
-      font-size:4em;
+      font-size: 3em;
       font-weight: 100;
       width:20%;
      
